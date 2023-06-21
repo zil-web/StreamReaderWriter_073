@@ -44,6 +44,10 @@ int main() {
 				cout << baris << '\n';
 			}
 			//tutup file tersebut setelah selesai
+			infile.close();
 		}
+		//jika tidak ditemukkan file maka akan menampilkkan ini
+		else cout << "unable to open file";
+		return 0;
 	}
 }
