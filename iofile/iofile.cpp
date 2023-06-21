@@ -43,4 +43,6 @@ int  main() {
 		infile.close();
 	}
 	//jika tidak menemukan file maka akan menampilkkan ini
+	else cout << "unable to open file";
+	return 0;
 }
